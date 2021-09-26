@@ -1,5 +1,5 @@
-// validation script here
-/*
+# Summary
+
     -   Character set: [abc123]asdf
             Match different characters in a single position.
             It is define in square brackets.
@@ -23,21 +23,21 @@
                                         "x" times and maximun "y" times.)
     -       [0-9]{x,} OR [a-z]{x,}      It has to be at least "x" times minimun long.
 
-    Methacharacters:
+    ## Methacharacters:
 
         -   \d      match any digit character. Same as [0-9]
         -   \w      match any word character. Same as (a-z, A-Z, 0-9, and _'s)
         -   \s      match any whitespace character (spaces, tabs, etc)
         -   \t      match a tab character only
-        Important:
+        ### Important:
             d       matches the literal chracter 'd'
             \d      matches any digit character   
         
-        Uses:
+        ### Uses:
 
             ex1.    \d{3}\s\w{5} -> '123 hello' -> this is a match.
 
-    Special characters:
+    ## Special characters:
         
         -   '+'     the one or more quantifier.
         -   '\'     the escape character.
@@ -48,10 +48,6 @@
         -   '*'     the 0 or more quantifier (a bit like +).                        ex. a[a-z]* -> a(any character in the range).
         -   '|'     match on or another character.                                  ex1. 'h|j' ex2. 'h|jello' ex.3 '(p|j)ello'
 
-        Uses:
+        ### Uses:
 
             ex1.    ^[a-z]{5}$ -> hello (at the beginning and at the end of the expression).
-    
-    
-
-*/
