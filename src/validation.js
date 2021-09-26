@@ -20,7 +20,7 @@ function validate(field, regex){
 inputs.forEach( (input) => {
 	input.addEventListener("keyup", e =>{
 		// console.log(e.target.attributes.name.value);
-		console.log(e.target);
+		// console.log(e.target);
 		validate(e.target, patterns[e.target.attributes.name.value]);
 	});
 });
