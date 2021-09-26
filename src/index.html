@@ -9,21 +9,21 @@
     <body>
         <h1>Registro de Nuevo Usuario</h1>
         <form>
+            
+            <input type="text" name="username" placeholder="usuario">
+            <p>Usuario debe contener solo letras minúsculas, números, y guiones y debe ser de 8 - 20 caracteres</p>
 
-            <input type="text" name="username" placeholder="primer nombre">
-            <p>Nombre debe contener de 5 - 12 caracteres</p>
+            <input type="text" name="firstName" placeholder="primer nombre">
+            <p>Primer nombre debe contener de 5 - 12 caracteres</p>
 
             <input type="text" name="email" placeholder="correo">
             <p>Correo debe ser una dirección válida, ej. yo@dominio.com</p>
 
-            <input type="text" name="password" placeholder="contraseña">
+            <input type="password" name="password" placeholder="contraseña">
             <p>Contraseña debe ser alfanumerica (@, _ - son permitidos) y debe ser de 8 - 20 caracteres</p>
 
             <input type="text" name="telephone" placeholder="telefono">
             <p>Teléfono debe ser un número colombiano válido (10 digitos)</p>
-
-            <input type="text" name="slug" placeholder="usuario">
-            <p>Usuario debe contener solo letras minúsulas, números, y guiones y debe ser de 8 - 20 caracteres</p>
 
         </form>
         <script type="text/javascript" src="validation.js"></script>

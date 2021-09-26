@@ -1,8 +1,11 @@
 const inputs = document.querySelectorAll('input');
 
 const patterns = {
+	username: /^[a-z\d.]{8,20}$/,
+	firstName: /^[a-z\d]{5,12}$/i,
+	email: "",
+	password: /^[\w@-]{8,20}$/,
 	telephone : /^[0-9]{10}$/,
-	username: /^[a-z\d]{5,12}$/i,
 };
 
 function validate(field, regex){
