@@ -9,7 +9,7 @@ const patterns = {
 };
 
 function validate(field, regex){
-	// console.log(regex.test(field.value));
+	// console.log(regex.test(field.value)); -> Returns "true" or "false".
 	if (regex.test(field.value)) {
 		field.className = "valid";
 	} else {
